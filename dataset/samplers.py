@@ -1,4 +1,3 @@
-
 import torch
 
 class SubsetRandomSampler(torch.utils.data.Sampler):
@@ -7,7 +6,6 @@ class SubsetRandomSampler(torch.utils.data.Sampler):
     Arguments:
         indices (sequence): a sequence of indices
     """
-
     def __init__(self, indices):
         self.epoch = 0
         self.indices = indices
